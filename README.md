@@ -1,4 +1,16 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fun app I built with React and EDAMAM; a food details api.
+
+A user types a food as a search term (example: chicken, which is the default), and onsubmit on the search the api returns a list of meals that can be prepared with the chicken as well as the recipe as seen by default with chicken when you first launch the app.
+
+## Api link
+
+Edamam: https://api.edamam.com/
+
+## To run this project from the terminal in your pc
+
+### Clone the repo with: git clone https://github.com/eseneose/food-receipe
+
+### Install the app locally with: npm i
 
 ## Available Scripts
 
