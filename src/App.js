@@ -17,10 +17,10 @@ const App = () => {
     }, [query]);
 
     const getRecipes = async() => {
-       try{const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
-       const data = await response.json()
-       setRecipes(data.hits)} catch(err){prompt("Failed to fetch from api, check that you have a active internet connection!")}
-     //   console.log(data.hits)
+        const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
+        const data = await response.json();
+        setRecipes(data.hits);
+        console.log(data.hits);
     };
 
     const updateSearch = e => {

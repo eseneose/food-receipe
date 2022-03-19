@@ -1,6 +1,6 @@
 .App {
     min-height: 100vh;
-    background: rgb(122, 77, 77);
+    background: rgb(78, 78, 78);
 }
 
 .search-form {
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(56, 24, 24);
+    background: rgb(37, 37, 37);
 }
 
 .search-bar {
@@ -18,7 +18,7 @@
 }
 
 .search-button {
-    background: lightcoral;
+    background: rgb(86, 165, 55);
     border: none;
     padding: 10px 20px;
     color: white;
@@ -28,4 +28,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
