@@ -1,19 +1,26 @@
 .recipe {
     border-radius: 10px;
-    box-shadow: 0px5px 20px rgb(71, 71, 71);
+    box-shadow: 0px5px 20px rgb(80, 180, 67);
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: rgb(211, 183, 183);
+    background: rgb(12, 7, 7);
     align-items: center;
     min-width: 40%;
-    color: rgb(26, 23, 23);
+    color: rgb(173, 173, 173);
+    font-size: 20px;
+    padding: 30px;
 }
 
 .image {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.calories {
+    font-size: 23px;
+    color: #e2e4e1;
 }

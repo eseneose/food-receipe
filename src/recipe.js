@@ -3,6 +3,11 @@ import style from './recipe.module.css';
 
 
 const Recipe = ({ title, calories, image, ingredients}) => {
+
+    if (calories => 3000){
+        
+    }
+
     return (
       <div className={style.recipe}>
           <h1>{title}</h1>
@@ -11,7 +16,7 @@ const Recipe = ({ title, calories, image, ingredients}) => {
                   <li>{ingredient.text} </li>
               ))}
           </ul>
-          <p> {calories}</p>
+          <p className={style.calories} > Calories: {calories}</p>
           <img className={style.image} src={image} alt=""
           />
 
